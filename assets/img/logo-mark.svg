@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" role="img" aria-label="Baskwave Studio">
+<rect width="88" height="88" rx="21" fill="#103440"/>
+<path d="M10 51 C22 31 30 31 42 51 S62 71 74 51 S89 38 96 51" stroke="#55ecd1" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M10 65 C22 45 30 45 42 65 S62 85 74 65 S89 52 96 65" stroke="#55ecd1" stroke-width="5" fill="none" stroke-linecap="round" opacity=".58"/>
+<circle cx="65" cy="24" r="6" fill="#ffac88"/>
+</svg>

@@ -1,0 +1,4 @@
+# À COMPLÉTER : ne pas publier comme configuration AdMob valide avant remplacement.
+# Remplacer pub-XXXXXXXXXXXXXXXX par l'ID éditeur réel (AdMob > Paramètres).
+# Supprimer le # au début de la ligne suivante une fois l'ID réel saisi.
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
