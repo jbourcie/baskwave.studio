@@ -12,3 +12,8 @@
 .gallery.gallery-four{align-items:start}
 .gallery.gallery-four figure{margin:0;min-width:0}
 .gallery.gallery-four img{max-width:100%}
+
+/* Contact : adresse revelee au clic pour limiter l'aspiration automatique. */
+.email-reveal{padding:0;border:0;background:none;color:var(--sea);cursor:pointer;font:inherit;font-weight:750;text-align:left;text-decoration:underline;text-underline-offset:4px}
+.email-reveal:hover,.email-address:hover{color:#a5ffe9}
+.email-address{color:var(--sea);overflow-wrap:anywhere;text-decoration:underline;text-underline-offset:4px}

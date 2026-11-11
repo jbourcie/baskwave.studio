@@ -30,16 +30,7 @@ Ouvrir `http://localhost:8080/`. Les liens sont relatifs : le site fonctionne au
 
 ## À renseigner avant la publication officielle
 
-1. **Créer une adresse e-mail publique fonctionnelle** (contact et assistance). La renseigner dans `assets/js/site-config.js` :
-
-   ```js
-   window.BASKWAVE_SITE = {
-     supportEmail: 'adresse-reelle@domaine.fr',
-     googlePlayUrl: '',
-   };
-   ```
-
-   Le bouton e-mail s'affiche automatiquement lorsque la valeur est correcte. Il ouvre le logiciel de messagerie (`mailto:`) : **pas de backend**.
+1. **Contact et assistance :** l'adresse publique du studio est configurée dans `assets/js/site-config.js` sous forme de segments (`supportMailboxParts`). Le site affiche une commande « Afficher l'adresse e-mail » ; les boutons « Contacter l'assistance » et « Écrire au studio » déclenchent un `mailto:` prérempli uniquement au clic. L'adresse complète n'est pas inscrite en clair dans le HTML. Cela limite les robots les plus simples, mais n'empêche pas les collecteurs capables d'exécuter JavaScript. Aucun formulaire ni backend n'est requis.
 
 2. **Compléter l'identité légale de l'éditeur** dans `legal.html` et `privacy.html`. Vérifier la qualification de l'activité, les obligations applicables et l'hébergeur définitif. La politique fournie est un **projet à valider**, pas une garantie juridique.
 

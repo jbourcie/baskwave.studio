@@ -1,5 +1,6 @@
-// Remplir uniquement avec des informations publiques et vérifiées avant publication.
+// Anti-scraping basique : l'adresse est reconstruite au clic, pas inscrite en clair en HTML.
+// Les robots qui analysent ou executent JavaScript peuvent toujours la recuperer.
 window.BASKWAVE_SITE = {
-  supportEmail: '',        // ex. 'support@votre-domaine.fr' (adresse réellement créée)
-  googlePlayUrl: '',       // lien Google Play de ZIGSPIRE après publication
+  supportMailboxParts: ['baskwave', 'studio', 'gmail', 'com'],
+  googlePlayUrl: '',       // lien Google Play de ZIGSPIRE apres publication
 };
